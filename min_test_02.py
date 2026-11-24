@@ -7,6 +7,6 @@ driver = webdriver.Chrome()
 driver.get("https://qa-guru.github.io/one-page-form/text-box.html")
 driver.maximize_window()
 time.sleep(15)  # Пауза, чтобы визуально заметить открытие
-print("Тест успешно пройден!")
+print("Тест успешно пройден!)")
 # 3. Закрытие браузера в любом случае
 driver.quit()
